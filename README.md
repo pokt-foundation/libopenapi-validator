@@ -4,10 +4,10 @@
 
 # Enterprise grade OpenAPI validation tools for golang.
 
-![Pipeline](https://github.com/pokt-foundation/libopenapi-validator/workflows/Build/badge.svg)
-[![codecov](https://codecov.io/gh/pokt-foundation/libopenapi-validator/branch/main/graph/badge.svg?)](https://codecov.io/gh/pokt-foundation/libopenapi-validator)
+![Pipeline](https://github.com/pb33f/libopenapi-validator/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/pb33f/libopenapi-validator/branch/main/graph/badge.svg?)](https://codecov.io/gh/pb33f/libopenapi-validator)
 [![discord](https://img.shields.io/discord/923258363540815912)](https://discord.gg/x7VACVuEGP)
-[![Docs](https://img.shields.io/badge/godoc-reference-5fafd7)](https://pkg.go.dev/github.com/pokt-foundation/libopenapi-validator)
+[![Docs](https://img.shields.io/badge/godoc-reference-5fafd7)](https://pkg.go.dev/github.com/pb33f/libopenapi-validator)
 
 A validation module for [libopenapi](https://github.com/pb33f/libopenapi).
 
@@ -25,7 +25,7 @@ A validation module for [libopenapi](https://github.com/pb33f/libopenapi).
 ## Installation
 
 ```bash
-go get github.com/pokt-foundation/libopenapi-validator
+go get github.com/pb33f/libopenapi-validator
 ```
 
 ## Documentation
@@ -41,5 +41,5 @@ go get github.com/pokt-foundation/libopenapi-validator
 - [Validating an OpenAPI document](https://pb33f.io/libopenapi/validation/#validating-an-openapi-document)
 - [Validating Schemas](https://pb33f.io/libopenapi/validation/#validating-schemas)
 
-[libopenapi](https://github.com/pb33f/libopenapi) and [libopenapi-validator](https://github.com/pokt-foundation/libopenapi-validator) are
+[libopenapi](https://github.com/pb33f/libopenapi) and [libopenapi-validator](https://github.com/pb33f/libopenapi-validator) are
 products of Princess Beef Heavy Industries, LLC

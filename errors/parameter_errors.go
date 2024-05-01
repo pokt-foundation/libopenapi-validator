@@ -2,9 +2,9 @@ package errors
 
 import (
 	"fmt"
-	"github.com/pb33f/libopenapi-validator/helpers"
 	"github.com/pb33f/libopenapi/datamodel/high/base"
 	"github.com/pb33f/libopenapi/datamodel/high/v3"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
 	"net/url"
 	"strings"
 )

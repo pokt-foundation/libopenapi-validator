@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pb33f/libopenapi-validator/helpers"
 	v3 "github.com/pb33f/libopenapi/datamodel/high/v3"
 	"github.com/pb33f/libopenapi/orderedmap"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
 )
 
 func ResponseContentTypeNotFound(op *v3.Operation,

@@ -1,4 +1,4 @@
-module github.com/pb33f/libopenapi-validator
+module github.com/pokt-foundation/libopenapi-validator
 
 go 1.21
 

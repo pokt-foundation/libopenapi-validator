@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/pb33f/libopenapi"
-	"github.com/pb33f/libopenapi-validator/helpers"
-	"github.com/pb33f/libopenapi-validator/paths"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
+	"github.com/pokt-foundation/libopenapi-validator/paths"
 	"github.com/stretchr/testify/assert"
 )
 

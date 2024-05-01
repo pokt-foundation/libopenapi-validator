@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/pb33f/libopenapi-validator/errors"
 	"github.com/pb33f/libopenapi/datamodel/high/base"
 	v3 "github.com/pb33f/libopenapi/datamodel/high/v3"
+	"github.com/pokt-foundation/libopenapi-validator/errors"
 )
 
 // ResponseBodyValidator is an interface that defines the methods for validating response bodies for Operations.

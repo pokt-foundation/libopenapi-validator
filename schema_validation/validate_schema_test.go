@@ -528,7 +528,7 @@ paths:
 	assert.Equal(t, "invalid character '}' looking for beginning of object key string", errors[0].SchemaValidationErrors[0].Reason)
 }
 
-//// https://github.com/pb33f/libopenapi-validator/issues/26
+//// https://github.com/pokt-foundation/libopenapi-validator/issues/26
 //func TestValidateSchema_v3_0_BooleanExclusiveMinimum(t *testing.T) {
 //
 //	spec := `openapi: 3.0.0
@@ -566,7 +566,7 @@ paths:
 //
 //}
 
-// https://github.com/pb33f/libopenapi-validator/issues/26
+// https://github.com/pokt-foundation/libopenapi-validator/issues/26
 func TestValidateSchema_v3_0_NumericExclusiveMinimum(t *testing.T) {
 	spec := `openapi: 3.0.0
 paths:
@@ -601,7 +601,7 @@ paths:
 	assert.NotEmpty(t, errors)
 }
 
-// https://github.com/pb33f/libopenapi-validator/issues/26
+// https://github.com/pokt-foundation/libopenapi-validator/issues/26
 func TestValidateSchema_v3_1_NumericExclusiveMinimum(t *testing.T) {
 	spec := `openapi: 3.1.0
 paths:

@@ -5,10 +5,10 @@ package parameters
 
 import (
 	"fmt"
-	"github.com/pb33f/libopenapi-validator/errors"
-	"github.com/pb33f/libopenapi-validator/helpers"
 	"github.com/pb33f/libopenapi/datamodel/high/base"
 	"github.com/pb33f/libopenapi/datamodel/high/v3"
+	"github.com/pokt-foundation/libopenapi-validator/errors"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
 	"slices"
 	"strconv"
 	"strings"

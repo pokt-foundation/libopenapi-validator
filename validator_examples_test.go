@@ -11,7 +11,7 @@ import (
 	"os"
 
 	"github.com/pb33f/libopenapi"
-	"github.com/pb33f/libopenapi-validator/helpers"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
 )
 
 func ExampleNewValidator_validateDocument() {

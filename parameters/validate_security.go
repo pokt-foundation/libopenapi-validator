@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pb33f/libopenapi-validator/errors"
-	"github.com/pb33f/libopenapi-validator/helpers"
-	"github.com/pb33f/libopenapi-validator/paths"
 	v3 "github.com/pb33f/libopenapi/datamodel/high/v3"
 	"github.com/pb33f/libopenapi/orderedmap"
+	"github.com/pokt-foundation/libopenapi-validator/errors"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
+	"github.com/pokt-foundation/libopenapi-validator/paths"
 )
 
 func (v *paramValidator) ValidateSecurity(request *http.Request) (bool, []*errors.ValidationError) {

@@ -5,7 +5,7 @@ package parameters
 
 import (
 	"github.com/pb33f/libopenapi"
-	"github.com/pb33f/libopenapi-validator/paths"
+	"github.com/pokt-foundation/libopenapi-validator/paths"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"

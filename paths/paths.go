@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pb33f/libopenapi-validator/errors"
-	"github.com/pb33f/libopenapi-validator/helpers"
 	v3 "github.com/pb33f/libopenapi/datamodel/high/v3"
 	"github.com/pb33f/libopenapi/orderedmap"
+	"github.com/pokt-foundation/libopenapi-validator/errors"
+	"github.com/pokt-foundation/libopenapi-validator/helpers"
 )
 
 // FindPath will find the path in the document that matches the request path. If a successful match was found, then

@@ -4,9 +4,9 @@
 package requests
 
 import (
-	"github.com/pb33f/libopenapi-validator/errors"
 	"github.com/pb33f/libopenapi/datamodel/high/base"
 	"github.com/pb33f/libopenapi/datamodel/high/v3"
+	"github.com/pokt-foundation/libopenapi-validator/errors"
 	"net/http"
 	"sync"
 )
